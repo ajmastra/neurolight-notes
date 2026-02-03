@@ -1,0 +1,38 @@
+site_name: Neurolight Meeting Notes
+site_description: Technical documentation and meeting notes
+site_url: https://YOUR_USERNAME.github.io/neurolight-meeting-notes/
+repo_url: https://github.com/YOUR_USERNAME/neurolight-meeting-notes
+repo_name: neurolight-meeting-notes
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang: en
+
+# Omit nav to enable auto-discovery - MkDocs automatically creates
+# navigation from all Markdown files in docs/ based on folder structure
+# Add new pages by dropping .md files into docs/ - they appear automatically
