@@ -4,7 +4,7 @@ Date: January 26th, 2026
 ### Client Email
 - Email Client, try to get biweekly meeting with Dr Allen due to his busy schedule
 - Dr D weekly meetings, preferably in person since he will be the main person we want to talk technical aspects with
-- Remind Dr Allen to get us the figures that he wants us to pull out
+- Remind Dr Allen to get us the figures that he wants us to pull out.
 
 ### Software Design Document
 - We assigned work for Software Design Document
