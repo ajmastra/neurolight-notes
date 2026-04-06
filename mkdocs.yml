@@ -1,8 +1,8 @@
-site_name: Neurolight Meeting Notes
-site_description: Technical documentation and meeting notes
-site_url: https://ajmastra.github.io/neurolight-meeting-notes/
-repo_url: https://github.com/ajmastra/neurolight-meeting-notes
-repo_name: neurolight-meeting-notes
+site_name: NeuroLight Meeting Notes
+site_description: Meeting notes and project documentation for the NeuroLight capstone team
+site_url: https://ajmastra.github.io/neurolight-notes/
+repo_url: https://github.com/ajmastra/neurolight-notes
+repo_name: neurolight-notes
 edit_uri: edit/main/docs/
 
 theme:
@@ -10,29 +10,46 @@ theme:
   palette:
     - scheme: default
       primary: indigo
-      accent: indigo
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       primary: indigo
-      accent: indigo
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
-    - navigation.tabs
+    - navigation.instant.progress
     - navigation.sections
     - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.suggest
     - search.highlight
+    - content.code.copy
     - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Meeting Notes:
+    - January 26, 2026: NeuroLight Team Meeting 01.md
+    - February 2, 2026: NeuroLight Team Meeting 02.md
+    - April 6, 2026: NeuroLight Team Meeting 03.md
 
 plugins:
   - search:
       lang: en
 
-# Omit nav to enable auto-discovery - MkDocs automatically creates
-# navigation from all Markdown files in docs/ based on folder structure
-# Add new pages by dropping .md files into docs/ - they appear automatically
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Neuro-Light/neurolight-workbench
+      name: NeuroLight on GitHub
